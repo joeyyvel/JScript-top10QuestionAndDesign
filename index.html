@@ -48,6 +48,7 @@
 
            </textarea
         >
+
         <!---------------------------longest word---------------------------->
 
         <br />
@@ -152,6 +153,114 @@
 
               Result: true
               Result: false
+
+        </textarea>
+        <!---------------------------GET LARGEST NUMBER ----------------------->
+        <br />
+        <br />
+        <h3>get the Largest number</h3>
+
+        <p>
+          we are going to learn about the largest element in an array in
+          JavaScript. The largest element in an array refers to the value that
+          holds the greatest numerical or lexicographic (string) order among all
+          elements present in the array.
+        </p>
+        <br />
+        <textarea name="" id="text_area_largestNumber">
+            function findLargestNumber(num) {
+                let largest = [];
+              
+                for (let i = 0; i <= num.length; i++) {
+                  if (num[i] > largest) {
+                    largest = num[i];
+                  }
+                }
+                return largest;
+              }
+              
+              console.log(findLargestNumber([328, 7, 8, 9, 10, 11]));
+              
+              result: 328
+
+        </textarea>
+
+        <!--------------------------PRIME NUMBERS------------------------->
+        <br />
+        <br />
+
+        <h3>Prime numbers</h3>
+        <br />
+        <p>
+          A prime number is a positive integer that is only divisible by 1 and
+          itself. For example, 2, 3, 5, 7, 11 are the first few prime numbers.
+        </p>
+
+        <textarea name="" id="text_area_primeNumbers">
+ 
+            function checkPrimeNumbers(num) {
+                for (let i = 2; i <= num / 2; i++) {
+                  if (num % i === 0) {
+                    return console.log("not prime number", num);
+                  }
+                }
+                return console.log("prime#", num);
+              }
+              
+              console.log(checkPrimeNumbers(7));
+              console.log(checkPrimeNumbers(10));
+              
+               Result: prime# 7
+               Result: not prime number 10
+
+        </textarea>
+        <!---------------------------FACTORIAL ------------------------>
+        <br />
+        <br />
+        <h3>Factorial number</h3>
+        <br />
+        <p>
+          When you factorialize a number, you are multiplying that number by
+          each consecutive number minus one. If your number is 5, you would
+          have: 5! = 5 * 4 * 3 * 2 * 1
+        </p>
+        <textarea name="" id="text_area_factorial">
+          function factorial(n) {
+            let res = 1;
+          
+            if (n === 0) return 1;
+            for (let i = 2; i <= n; i++) res = res * i;
+            return res;
+          }
+          
+          let n = 5;
+          
+          console.log(factorial(n));
+
+          Result: 120
+        </textarea>
+
+        <!----------------------------REMOVE WHITE SPACE ------------------------>
+        <br />
+        <br />
+        <h3>removing white space</h3>
+        <br />
+        <p>
+          you might want to make sure that there is never more than one space in
+          a row, or that there is always a space after a period (full stop),
+          etc.
+        </p>
+        <textarea name="" id="text_area_removingSpace">
+          let myString = "Hello javaScript!    let's 'have fun";
+          console.log(removeWhiteSpace(myString));
+          
+          function removeWhiteSpace(space) {
+            let result = space.replace(/\s/g, "");
+            return result;
+          }
+ 
+          Result:HellojavaScript!let's'havefun
+
 
         </textarea>
 
