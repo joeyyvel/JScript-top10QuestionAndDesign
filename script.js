@@ -56,3 +56,16 @@ function removeDuplicate(num) {
 }
 
 console.log(removeDuplicate([1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8]));
+
+/*-----------------------------------------------------------------------------*/
+/*----------------------------ANAGRAMS-----------------------------------------*/
+
+function checkAnagrams(str1, str2) {
+  let wordOne = str1.split("").sort().join("");
+  let wordTwo = str2.split("").sort().join("");
+
+  return wordOne === wordTwo;
+}
+
+console.log(checkAnagrams("silent", "listen"));
+console.log(checkAnagrams("one", "two"));

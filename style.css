@@ -54,3 +54,11 @@ body {
   width: 80%;
   padding: 20px;
 }
+
+/*--------------anagrams--------------------------*/
+#text_area_anagrams {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
