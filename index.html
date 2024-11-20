@@ -71,6 +71,7 @@
               console.log(findLongestWord("i love javascript programming"));
              Result: programming
         </textarea>
+        <!-------------------------------PALINDROME---------------------------------->
         <br />
         <br />
         <h3>palindrome</h3>
@@ -94,6 +95,38 @@
               Result: true; boolean result.
          </textarea
         >
+        <!----------------------------DUPLICATE----------------------------------->
+        <br />
+        <br />
+        <h3>Duplicate</h3>
+        <p>
+          Duplicate elements can be a nuisance when working with arrays in
+          JavaScript. They not only clutter your data but can also affect the
+          performance of your code. Fortunately, JavaScript offers several
+          efficient methods to remove duplicates from arrays, each with its own
+          advantages and use cases. In this article, we'll delve into six
+          distinct approaches to remove duplicates from arrays, ranging from
+          utilizing built-in methods like Set to more custom solutions for
+          arrays of objects.
+        </p>
+        <br />
+        <textarea name="" id="text_area_duplicate">
+            function removeDuplicate(num) {
+                let uniqueElements = [];
+              
+                for (let i = 0; i < num.length; i++) {
+                  if (uniqueElements.indexOf(num[i]) === -1) {
+                    uniqueElements.push(num[i]);
+                  }
+                }
+              
+                return uniqueElements;
+              }
+              
+              console.log(removeDuplicate([1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8]));
+
+              Result: (8) [1, 2, 3, 4, 5, 6, 7, 8]              
+        </textarea>
 
         <!-- container area -->
       </div>

@@ -46,3 +46,11 @@ body {
   width: 80%;
   padding: 20px;
 }
+
+/*-------------duplicate------------------------ */
+#text_area_duplicate {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
