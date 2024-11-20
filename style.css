@@ -7,6 +7,14 @@ body {
   font-family: Nunito;
 }
 
+h3 {
+  color: #0a0a23;
+}
+
+p {
+  background-color: yellow;
+}
+
 .title__intro {
   background-color: #0a0a23;
   color: white;
@@ -27,7 +35,7 @@ body {
 #text_area_reverseString {
   background-color: #f8f6f6;
   height: 20rem;
-  width: 80%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -35,7 +43,7 @@ body {
 #text_area_longestWord {
   background-color: #f8f6f6;
   height: 20rem;
-  width: 80%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -43,7 +51,7 @@ body {
 #text_area_palindrome {
   background-color: #f8f6f6;
   height: 20rem;
-  width: 80%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -51,7 +59,7 @@ body {
 #text_area_duplicate {
   background-color: #f8f6f6;
   height: 20rem;
-  width: 80%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -59,6 +67,46 @@ body {
 #text_area_anagrams {
   background-color: #f8f6f6;
   height: 20rem;
-  width: 80%;
+  width: 90%;
+  padding: 20px;
+}
+
+/*---------------largestNumber-------------------- */
+#text_area_largestNumber {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
+  padding: 20px;
+}
+
+/*---------------primeNumber------------------------*/
+#text_area_primeNumbers {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
+  padding: 20px;
+}
+
+/*--------------factorial---------------------------*/
+#text_area_factorial {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
+  padding: 20px;
+}
+
+/*---------------remove space----------------------*/
+#text_area_removingSpace {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
+  padding: 20px;
+}
+
+/*---------------recursive-------------------------*/
+#text_area_recursive {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
   padding: 20px;
 }
