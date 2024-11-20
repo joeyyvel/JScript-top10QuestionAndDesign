@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Press+Start+2P&family=Rammetto+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Rammetto+One&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -17,6 +19,41 @@
       <div class="header-title">
         <h2 class="header title__intro">learn to code</h2>
         <h1 class="header title__para">Top 10 JS Questions with solution</h1>
+      </div>
+      <div class="container">
+        <h3>Reverse String</h3>
+        <p>
+          Reversing a string is one of the most frequently asked JavaScript
+          question in the technical round of interview. Interviewers may ask you
+          to write different ways to reverse a string, or they may ask you to
+          reverse a string without using in-built methods, or they may even ask
+          you to reverse a string using recursion.
+        </p>
+        <br />
+
+        <textarea name="" id="text_area_reverseString">
+            function reverseString(str) {
+                let reversedWord = [];
+              
+                for (let i = str.length - 1; i >= 0; i--) {
+                  reversedWord += str[i];
+                }
+              
+                return reversedWord;
+              }
+              
+              console.log(reverseString("Hello javascript programming"));
+              
+              result: gnimmargorp tpircsavaj olleH
+
+           </textarea
+        >
+        <br />
+        <br />
+        <h3>longest word</h3>
+        <p>find the longest word in string</p>
+
+        <!-- container area -->
       </div>
     </div>
     <script src="script.js"></script>

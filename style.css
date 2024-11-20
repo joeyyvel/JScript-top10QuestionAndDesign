@@ -3,14 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Nunito;
+}
 
 .title__intro {
   background-color: #0a0a23;
   color: white;
+  font-family: orbitron;
+  padding: 10px;
 }
 
 .title__para {
   background-color: aquamarine;
   color: red;
   text-align: center;
+}
+
+.container {
+  margin: 40px;
+}
+
+#text_area_reverseString {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
 }
