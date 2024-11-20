@@ -3,14 +3,62 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Nunito;
+}
 
 .title__intro {
   background-color: #0a0a23;
   color: white;
+  font-family: orbitron;
+  padding: 10px;
 }
 
 .title__para {
   background-color: aquamarine;
   color: red;
   text-align: center;
+}
+
+.container {
+  margin: 40px;
+}
+
+#text_area_reverseString {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
+
+/* -----------longest word area--------------- */
+#text_area_longestWord {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
+
+/* ------------palindrome---------------------  */
+#text_area_palindrome {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
+
+/*-------------duplicate------------------------ */
+#text_area_duplicate {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
+
+/*--------------anagrams--------------------------*/
+#text_area_anagrams {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
 }
