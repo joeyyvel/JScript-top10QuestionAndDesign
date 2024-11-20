@@ -48,10 +48,52 @@
 
            </textarea
         >
+        <!---------------------------longest word---------------------------->
+
         <br />
         <br />
         <h3>longest word</h3>
         <p>find the longest word in string</p>
+        <br />
+        <textarea name="" id="text_area_longestWord">
+            function findLongestWord(sentence) {
+                let words = sentence.split(" ");
+                let longestWord = "";
+              
+                for (let word of words) {
+                  if (word.length > longestWord.length) {
+                    longestWord = word;
+                  }
+                }
+                return longestWord;
+              }
+              
+              console.log(findLongestWord("i love javascript programming"));
+             Result: programming
+        </textarea>
+        <br />
+        <br />
+        <h3>palindrome</h3>
+        <p>
+          A palindrome is a word, phrase, number, or other sequence of
+          characters which reads the same backward or forward. The word
+          “palindrome” was first coined by the English playwright Ben Jonson in
+          the 17th century, from the Greek roots palin (“again”) and dromos
+          (“way, direction”). — src. Wikipedia
+        </p>
+        <br />
+        <textarea name="" id="text_area_palindrome">
+            function checkPalindrome(word) {
+                let stringOne = word.split("").reverse().join("");
+              
+                return word === stringOne;
+              }
+              
+              console.log(checkPalindrome("kayak"));
+
+              Result: true; boolean result.
+         </textarea
+        >
 
         <!-- container area -->
       </div>

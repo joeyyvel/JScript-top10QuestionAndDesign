@@ -30,3 +30,19 @@ body {
   width: 80%;
   padding: 20px;
 }
+
+/* -----------longest word area--------------- */
+#text_area_longestWord {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
+
+/* ------------palindrome---------------------  */
+#text_area_palindrome {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 80%;
+  padding: 20px;
+}
