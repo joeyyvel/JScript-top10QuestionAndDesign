@@ -1,74 +1,74 @@
 /*------------------------REVERSE STRING------------------------------*/
 
-// function reverseString(str) {
-//   let reversedWord = [];
+function reverseString(str) {
+  let reversedWord = [];
 
-//   for (let i = str.length - 1; i >= 0; i--) {
-//     reversedWord += str[i];
-//   }
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversedWord += str[i];
+  }
 
-//   return reversedWord;
-// }
+  return reversedWord;
+}
 
-// console.log(reverseString("Hello javascript programming"));
+console.log(reverseString("Hello javascript programming"));
 
 /*----------------------------------------------------------------------*/
 /*-------------------------LONGEST WORD---------------------------------*/
 
-// function findLongestWord(sentence) {
-//   let words = sentence.split(" ");
-//   let longestWord = "";
+function findLongestWord(sentence) {
+  let words = sentence.split(" ");
+  let longestWord = "";
 
-//   for (let word of words) {
-//     if (word.length > longestWord.length) {
-//       longestWord = word;
-//     }
-//   }
-//   return longestWord;
-// }
+  for (let word of words) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  }
+  return longestWord;
+}
 
-//console.log(findLongestWord("i love javascript programming"));
+console.log(findLongestWord("i love javascript programming"));
 
 /*-----------------------------------------------------------------------*/
 /*-------------------------PALINDROME----------------------------------- */
 
-// function checkPalindrome(word) {
-//   let stringOne = word.split("").reverse().join("");
+function checkPalindrome(word) {
+  let stringOne = word.split("").reverse().join("");
 
-//   return word === stringOne;
-// }
+  return word === stringOne;
+}
 
-// console.log(checkPalindrome("kayak"));
+console.log(checkPalindrome("kayak"));
 
 /*------------------------------------------------------------------------*/
 /*---------------------------DUPLICATE------------------------------------*/
 
-// function removeDuplicate(num) {
-//   let uniqueElements = [];
+function removeDuplicate(num) {
+  let uniqueElements = [];
 
-//   for (let i = 0; i < num.length; i++) {
-//     if (uniqueElements.indexOf(num[i]) === -1) {
-//       uniqueElements.push(num[i]);
-//     }
-//   }
+  for (let i = 0; i < num.length; i++) {
+    if (uniqueElements.indexOf(num[i]) === -1) {
+      uniqueElements.push(num[i]);
+    }
+  }
 
-//   return uniqueElements;
-// }
+  return uniqueElements;
+}
 
-// console.log(removeDuplicate([1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8]));
+console.log(removeDuplicate([1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8]));
 
 /*-----------------------------------------------------------------------------*/
 /*----------------------------ANAGRAMS-----------------------------------------*/
 
-// function checkAnagrams(str1, str2) {
-//   let wordOne = str1.split("").sort().join("");
-//   let wordTwo = str2.split("").sort().join("");
+function checkAnagrams(str1, str2) {
+  let wordOne = str1.split("").sort().join("");
+  let wordTwo = str2.split("").sort().join("");
 
-//   return wordOne === wordTwo;
-// }
+  return wordOne === wordTwo;
+}
 
-// console.log(checkAnagrams("silent", "listen"));
-// console.log(checkAnagrams("one", "two"));
+console.log(checkAnagrams("silent", "listen"));
+console.log(checkAnagrams("one", "two"));
 
 /*-----------------------------------------------------------------------------*/
 /*----------------------------LARGEST-----------------------------------------*/
@@ -126,3 +126,18 @@ function removeWhiteSpace(space) {
   let result = space.replace(/\s/g, "");
   return result;
 }
+
+/*------------------------------Recursion---------------------------------------*/
+let z = 1;
+
+function show() {
+  console.log("counting ", z);
+  z++;
+  if (z <= 10) {
+    show();
+  } else {
+    console.log("bomb exploded. boom!!!");
+  }
+}
+
+show();

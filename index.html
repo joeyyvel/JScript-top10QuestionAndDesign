@@ -261,6 +261,45 @@
  
           Result:HellojavaScript!let's'havefun
 
+        </textarea>
+        <!--------------------------------Recursion--------------------------->
+        <br />
+        <br />
+        <h3>Recursive</h3>
+        <br />
+        <p>
+          A recursive function is a function that calls itself somewhere within
+          the body of the function. Below is a basic example of a recursive
+          function.
+        </p>
+        <textarea name="" id="text_area_recursive">
+          let z = 1;
+
+function show() {
+  console.log("counting ", z);
+  z++;
+  if (z <= 10) {
+    show();
+  } else {
+    console.log("bomb exploded. boom!!!");
+  }
+}
+
+show();
+result:
+counting  1
+counting  2
+counting  3
+counting  4
+counting  5
+counting  6
+counting  7
+counting  8
+counting  9
+counting  10
+bomb exploded. boom!!!
+
+
 
         </textarea>
 

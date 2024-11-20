@@ -11,6 +11,10 @@ h3 {
   color: #0a0a23;
 }
 
+p {
+  background-color: yellow;
+}
+
 .title__intro {
   background-color: #0a0a23;
   color: white;
@@ -93,6 +97,14 @@ h3 {
 
 /*---------------remove space----------------------*/
 #text_area_removingSpace {
+  background-color: #f8f6f6;
+  height: 20rem;
+  width: 90%;
+  padding: 20px;
+}
+
+/*---------------recursive-------------------------*/
+#text_area_recursive {
   background-color: #f8f6f6;
   height: 20rem;
   width: 90%;
